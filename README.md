@@ -22,6 +22,7 @@ Ada beberapa penyesuaian yang saya lakukan pada repository ini. Misalnya tampila
 
 ### Fitur yang dihapus
 
+- Lafadz / Logo
 - Tanggal Hijriyah
 - Tampilan Suhu
 - Jam Kecil
@@ -34,3 +35,7 @@ Ada beberapa penyesuaian yang saya lakukan pada repository ini. Misalnya tampila
 
 - Hitungan waktu Dzuhur. Langsung ditambah 4, bukan ditambah ihtiyat.
 - Memunculkan kembali jadwal Terbit Matahari (awalnya di skip).
+
+### Wifi
+ssid = JWS ESP P10
+password = jwsmurottal
