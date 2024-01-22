@@ -37,5 +37,6 @@ Ada beberapa penyesuaian yang saya lakukan pada repository ini. Misalnya tampila
 - Memunculkan kembali jadwal Terbit Matahari (awalnya di skip).
 
 ### Wifi
-ssid = JWS ESP P10
-password = jwsmurottal
+
+- SSID = JWS ESP P10
+- PassWord = jwsmurottal
