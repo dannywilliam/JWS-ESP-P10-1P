@@ -615,41 +615,17 @@ void TampilCountDown() {
   char TampilMundur[9];
   String sholat = TimeName[jwsNext];
 
-  static uint8_t y;
-  static uint8_t d;           
   static uint32_t pM;
   uint32_t cM = millis();
-
-  static uint32_t pMPulse;
   static uint8_t pulse;
 
-  if (cM - pMPulse >= 500) {
-    pMPulse = cM;
+  if (cM - pM >= 1000) {
+    pM = cM;
     pulse++;
   }
   
-  if (pulse > 8) {
+  if (pulse >= 8) {
     pulse=0;
-  }
-
-  if(cM - pM > 35) { 
-    if(d == 0 and y < 20) {
-      pM=cM;
-      y++;
-    }
-    if(d  == 1 and y > 0) {
-      pM=cM;
-      y--;
-    }    
-  }
-  
-  if(cM - pM > 5000 and y == 20) { // Jam akan tampil selama 5 detik
-    d=1;
-    Disp.drawRect(0,0,31,15,0,0);
-  }
-  
-  if(y == 0 and d == 1) {
-    d=0;
     Disp.drawRect(0,0,31,15,0,0);
     tmpinfo = 0;
     tmpjws = 3;
