@@ -519,7 +519,7 @@ void TeksBerjalanKananKiri() {
     pM = cM;
 
     if (x < fullScroll) {
-      if (x == 1) {
+      if (x == 0) {
         Disp.drawRect(0,0,31,15,0,0); //Mengosongi area untuk Running Text
       }
       ++x;
