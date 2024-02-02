@@ -1,5 +1,7 @@
 ### JWS ESP P10 - 1 Panel
 
+#### Jadwal Waktu Sholat yang dibuat dengan ESP8266 dan Panel P10 (HUB12).
+
 JWS ini dibuat dengan mengikuti tutorial di YouTube pada Playlist berjudul "Membuat JWS" milik "Bonny Useful". Link nya : https://www.youtube.com/watch?v=lvVriKy26gw&list=PLKuQ-UWqAt3O8WmFeoTbUa2keQKbdOXVv
 
 Pemilik channel juga meng upload tutorialnya ke github pada link : https://github.com/busel7/Arduino/tree/master/MembuatJWS
