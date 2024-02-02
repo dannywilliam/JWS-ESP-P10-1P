@@ -45,6 +45,14 @@ Ada beberapa penyesuaian yang saya lakukan pada repository ini. Misalnya tampila
 - PassWord = jwsmurottal
 - IP Address : 192.168.4.1
 
+### Komponen yang dibutuhkan
+- Microcontroller berbasis ESP8266 (NodeMCU, Wemos D1 Mini, atau yang sejenisnya).
+- RTC DS3231.
+- Panel P10 (HUB12).
+- Buzzer.
+- Adaptor/Power Supply 5v.
+- Kabel.
+
 ### Pin on DMD LED P10 Panel
 
 | DMD P10 | GPIO | NODEMCU | 
